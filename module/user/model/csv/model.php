@@ -35,7 +35,7 @@ class userModel {
             }
             else {
                 while($limit) {
-                    $result[] =  fgets($file). "<br>";
+                    $result[] =  fgets($file);
                     $limit--;
                     if(!$limit)$handled = true;
                 }
